@@ -1,1 +1,1 @@
-amazon review analysis
+A rating classifier for Amazon reviews.
