@@ -14,9 +14,9 @@ The standard NLP workflow is abided by. What was done in each step of the workfl
 
 1. **Data Exploration and Visualization**.
 2. **Text Processing and Normalization**. 
-3. **GridSearch over Text Vectorization Techniques and Classifiers**. Standard pre-processing- stop words are removed, tweets are tokenized, lemmatization/stemming, ... . Lemmatization and stemming and compared against a classifier, and the best one is used in the next step. 
-4. **Sequence Modelling - Deep Learning**. The following text representation techniques were used and compared against each other: BOW, N-grams, TF-IDF, CBOW, Skip-gram, and the pre-trained W2V model. The classifier used for comparison was the Multinomial Naive Bayes classifier, with the main metrics of comaparison precision, recall, and f1 due to class imbalance.
-5. **Topic Modelling**. The best text representation models were used in a variety of classification models: LR, Facebook's FastText, and Decision Trees. 
+3. **GridSearch over Text Vectorization Techniques and Classifiers**. 
+4. **Sequence Modelling - Deep Learning**. 
+5. **Topic Modelling**. 
 
 
 # Results
