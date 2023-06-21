@@ -5,19 +5,19 @@ A project which was an assignment for our Text Analytics course @ Heriot Watt Un
 
 ## Motivation
 
-Motivate your research question or business problem. Clearly explain which problem is solved.
+This project aimed to develop a ML model to accurately predict the rating given using the review's text. 
 
 ## Method and results
 
 ### Methods 
 The standard NLP workflow is abided by. What was done in each step of the workflow is briefly described below:
 
-1. **Text-Preprocessing**. Related tweets are scraped using Tweepy.
-2. **Data Labelling**. TextBlob and Vader are used to automate labelling of tweets as positive, negative, or neutral. They are then manually examined to determine which would be more accurate.
-3. **Data pre-processing**. Standard pre-processing- stop words are removed, tweets are tokenized, lemmatization/stemming, ... . Lemmatization and stemming and compared against a classifier, and the best one is used in the next step. 
-4. **Text Representation**. The following text representation techniques were used and compared against each other: BOW, N-grams, TF-IDF, CBOW, Skip-gram, and the pre-trained W2V model. The classifier used for comparison was the Multinomial Naive Bayes classifier, with the main metrics of comaparison precision, recall, and f1 due to class imbalance.
-5. **Classification**. The best text representation models were used in a variety of classification models: LR, Facebook's FastText, and Decision Trees. 
-6. **Evaluation, Visualization, and Insights**. The precision, recall, and F1 of the models are compared. Then, positive, negative and neutral tweets resulting from the best classifier are inspected.
+1. **Data Exploration and Visualization**.
+2. **Text Processing and Normalization**. 
+3. **GridSearch over Text Vectorization Techniques and Classifiers**. Standard pre-processing- stop words are removed, tweets are tokenized, lemmatization/stemming, ... . Lemmatization and stemming and compared against a classifier, and the best one is used in the next step. 
+4. **Sequence Modelling - Deep Learning**. The following text representation techniques were used and compared against each other: BOW, N-grams, TF-IDF, CBOW, Skip-gram, and the pre-trained W2V model. The classifier used for comparison was the Multinomial Naive Bayes classifier, with the main metrics of comaparison precision, recall, and f1 due to class imbalance.
+5. **Topic Modelling**. The best text representation models were used in a variety of classification models: LR, Facebook's FastText, and Decision Trees. 
+
 
 # Results
 
@@ -27,19 +27,17 @@ The best performing pipeline was
 ## Repository overview
 
 Provide an overview of the directory structure and files, for example:
-
-├── README.md
-├── data
-├── gen
-│   ├── analysis
-│   ├── data-preparation
-│   └── paper
-└── src
-    ├── analysis
-    ├── data-preparation
-    └── paper
+    
 
 ## Libraries Used
+Pandas
+Numpy
+MatplotLib
+NLTK
+SKLearn
+Tensorflow 
+Keras
+Gensim
 
 ## Running instructions
 
@@ -52,4 +50,4 @@ Point interested users to any related literature and/or documentation.
 
 
 ## About
-Contributors: 
+Contributors: Bhavika Kaliya, Alora Tabuco and Andrea Nabua.
