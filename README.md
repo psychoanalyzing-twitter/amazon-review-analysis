@@ -21,12 +21,15 @@ The standard NLP workflow is abided by. What was done in each step of the workfl
 
 # Results
 
-The best performing pipeline was 
+The best performing model was a bidirectional LSTM with Word2Vec embedding.
 
 
 ## Repository overview
 
-Provide an overview of the directory structure and files, for example:
+- results Folder: Contains the saved models so they can be re-evaluated.
+- cw2.ipynb: The Jupyter Notebook containing the entire pipeline and experimentation.
+- train.pickle: The pickle file containing the dataset.
+
     
 
 ## Libraries Used
@@ -39,14 +42,6 @@ Tensorflow
 Keras
 Gensim
 
-## Running instructions
-
-Explain to potential users how to run/replicate your workflow. If necessary, touch upon the required input data, which secret credentials are required (and how to obtain them), which software tools are needed to run the workflow (including links to the installation instructions), and how to run the workflow.
-
-
-## More resources
-
-Point interested users to any related literature and/or documentation.
 
 
 ## About
